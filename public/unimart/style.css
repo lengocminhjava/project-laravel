@@ -1,0 +1,310 @@
+/*STYLE*/
+@import '../unimart/css/import/fonts.css';
+@import '../unimart/css/import/global.css';
+@import '../unimart/css/import/header.css';
+@import '../unimart/css/import/footer.css';
+@import '../unimart/css/import/home.css';
+@import '../unimart/css/import/category_product.css';
+@import '../unimart/css/import/blog.css';
+@import '../unimart/css/import/detail_product.css';
+@import '../unimart/css/import/detail_blog.css';
+@import '../unimart/css/import/cart.css';
+@import '../unimart/css/import/checkout.css';
+
+ul.list-item li .thumb {
+    display: block;
+    overflow: hidden;
+}
+
+.discount-btn {
+    padding: 5px 12px !important;
+}
+
+.thumnail_gif {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+}
+
+.thumnail_gif p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.center-div {
+
+    /* Sử dụng display flex và các thuộc tính justify-content và align-items để canh giữa div */
+    display: flex;
+    justify-content: center;
+    /* canh giữa theo chiều ngang */
+    align-items: center;
+    /* canh giữa theo chiều dọc */
+
+}
+
+.page-link {
+    background: #FFBFA9 !important;
+    color: #DF2E38 !important;
+    font-weight: 600;
+}
+
+ul#item_products li {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background: #e9f3e9 !important;
+}
+
+ul#item_product.list-item li a.product-name, ul#item_products.list-item li a.product-name {
+    min-height: 68px !important;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul#item_product.list-item li img, ul#item_products.list-item li img {
+    max-height: 127px !important;
+    min-height: 127px !important;
+    align-items: center;
+    margin: 0 auto;
+}
+
+ul#item_product.list-item li .price, ul#item_products.list-item li .price {
+    min-height: 25px !important;
+}
+
+ul.list-item li .thumb {
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+
+ul#item_product.list-item li .thumb:hover, ul#item_products.list-item li .thumb:hover {
+    transform: scale(1.2);
+}
+
+ul.oke {
+    min-height: 5px !important;
+}
+
+.error {
+    z-index: 1000;
+    color: tomato;
+}
+
+a, button {
+    cursor: pointer !important;
+}
+
+.hiden {
+    display: none;
+}
+
+#district {
+    text-align: center;
+    font-size: 18px;
+}
+
+#main-content-wp {
+    background: #c8eec8 !important;
+}
+
+ul#item_product.list-item li .price span.old, ul#item_products.list-item li .price span.old {
+    color: black;
+}
+
+#list-product-wp .section-detail .list-item li {
+    background-color: #bdc5bd !important;
+}
+
+#selling-wp .section-detail, #category-product-wp .list-item {
+    background-color: #62CDFF;
+}
+#category-product-wp{
+    margin-bottom:10px!important;
+} 
+
+#category-product-wp #sidebar-menu.list-item a {
+    color: black;
+}
+
+.search-ajax-result {
+    background: brown !important;
+}
+
+.search-ajax-resul p .new {
+    color: #fff;
+}
+
+.search-ajax-resul a {
+    color: orange !important;
+}
+
+#feature-product-wp .list-item li, #same-category-wp .list-item li {
+    background-color: #FFACAC;
+}
+
+#category-product-wp .section-title, #selling-wp .section-title, #filter-product-wp .section-title {
+    background-color: tomato;
+}
+
+#selling-wp .section-detail .list-item {
+    background-color: pink !important;
+}
+
+#feature-product-wp .section-title, #list-product-wp .section-title, #same-category-wp .section-title, #post-product-wp .section-title {
+    background-color: rgb(23, 172, 30);
+    display: inline-block;
+    padding: 5px;
+    width: 250px;
+    color: #c8eec8;
+}
+
+#feature-product-wp .owl-controls .owl-buttons div.owl-next, #same-category-wp .owl-controls .owl-buttons div.owl-next, #feature-product-wp .owl-controls .owl-buttons div.owl-prev, #same-category-wp .owl-controls .owl-buttons div.owl-prev {
+    background-color: aqua;
+}
+
+#feature-product-wp .list-item li .action .buy-now, #list-product-wp .list-item li .action .buy-now, #same-category-wp .list-item li .action .buy-now {
+    background-color: #da1818;
+    color: #f1f1f1;
+}
+
+#feature-product-wp .list-item li .action .buy-now:hover, #list-product-wp .list-item li .action .buy-now:hover, #same-category-wp .list-item li .action .buy-now:hover {
+    background-color: rgb(247, 247, 247);
+    color: #dd0a0a;
+}
+
+
+#feature-product-wp .list-item li .action .add-cart, #list-product-wp .list-item li .action .add-cart, #same-category-wp .list-item li .action .add-cart {
+    background-color: #333 !important;
+    color: #f1f1f1 !important;
+}
+
+#feature-product-wp .list-item li .action .add-cart:hover, #list-product-wp .list-item li .action .add-cart:hover, #same-category-wp .list-item li .action .add-cart:hover {
+    background-color: #f1f1f1 !important;
+    color: #333 !important;
+}
+
+.sidebar {
+    padding-right: 20px !important;
+}
+
+.zoomLens {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+#head-body {
+
+    background: #E11299;
+}
+
+#head-top {
+    background: #9A208C;
+}
+
+#foot-bot {
+    background: tomato;
+}
+
+#list-blog-wp .info .title {
+    color: #E11299;
+}
+
+#list-blog-wp .info .desc {
+    color: #7149C6
+}
+
+#list-blog-wp .info .create-date {
+    color: black;
+}
+
+.text-danger {
+    color: tomato;
+}
+
+#search-wp {
+    position: relative;
+}
+
+#search-ajax {
+    width: 57.8%;
+    position: absolute;
+    z-index: 1000;
+    background: #fff;
+
+}
+
+.search-ajax-result .media {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.search-ajax-result {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.search-ajax-result p {
+    margin: 0;
+    font-size: 16px;
+    color: #fff !important;
+}
+
+.search-ajax-result p span.old {
+    color: orange !important;
+}
+
+.search-ajax-result a {
+    color: #16FF00 !important;
+}
+
+#phone-container {
+    position: absolute;
+    z-index: 9999;
+    animation: phone-float 3s ease-in-out infinite;
+}
+
+@keyframes phone-float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.phone-shake {
+    animation: phone-shake 0.5s ease-in-out 5;
+}
+
+@keyframes phone-shake {
+    0% {
+        transform: rotate(0);
+    }
+
+    25% {
+        transform: rotate(15deg);
+    }
+
+    50% {
+        transform: rotate(0);
+    }
+
+    75% {
+        transform: rotate(-15deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
